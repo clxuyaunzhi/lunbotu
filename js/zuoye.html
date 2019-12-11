@@ -33,7 +33,9 @@
 			<li>5</li>
 		</ul>
 	</div>
-	<script >
+</body>
+</html>
+<script >
 		var box=document.getElementById("box");
 		var oNaclist=document.getElementById("nav").children;
 		var slider=document.getElementById("slider");
@@ -112,8 +114,8 @@
               var timer=setInterval(function(){
                  var now=parseInt(getStyle(hua,"left"));
                  console.log(now);
-                  if(now===-700){
-                 	hua.style.left=700+"px";
+                  if(now===-430){
+                 	hua.style.left=1000+"px";
                  }
                  else{
                     hua.style.left=now-2+"px";
@@ -128,5 +130,3 @@
            }
          }
 	</script>
-</body>
-</html>
