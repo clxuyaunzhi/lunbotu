@@ -8,11 +8,12 @@
 <script src="animate.js"></script>
 <body>
 	<div class="border">
-		<img style="margin-left:500px;float:left;margin-top:2px" src="../images/a15.png">
-		<div class="bord">
-			<p id ="hua" class="hua" style="color:red;"> [温馨提示]：最近有不少不法分子在网上骗人，请大家注意！！！</p>
+		<div class="box1">
+			<img style="float:left;margin-top:2px;" src="../images/a15.png">
+			<div class="bord">
+				<p id ="hua" class="hua" style="color:red;"> [温馨提示]：最近有不少不法分子在网上骗人，请大家注意！！！</p>
+			</div>
 		</div>
-	</div>
 	<div class="box"  id="box">
 		<div class="slider" id="slider">
 			<div class="slide"><img src="../images/b5.png" alt=""></div>
@@ -114,7 +115,7 @@
               var timer=setInterval(function(){
                  var now=parseInt(getStyle(hua,"left"));
                  console.log(now);
-                  if(now===-430){
+                  if(now===-410){
                  	hua.style.left=1000+"px";
                  }
                  else{
