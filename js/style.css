@@ -11,11 +11,15 @@ ul,li{
 	height:20px;
 	background-color:grey;
 }
+.box1{
+	height:20px;
+	width:1020px;
+	margin:auto auto;
+}
 .bord{
 	height:20px;
 	width:1000px;
-	margin:0 auto;
-	margin-left:0px;
+	margin:auto auto;
 	overflow:hidden;
 }
 .hua{
