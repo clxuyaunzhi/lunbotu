@@ -14,12 +14,13 @@ ul,li{
 .bord{
 	height:20px;
 	width:1000px;
-	text-align:center;
+	margin:0 auto;
+	margin-left:0px;
 	overflow:hidden;
 }
 .hua{
 	position:relative;
-	left:500px;
+	left:1000px;
 }
 .box{
 	width:1200px;
